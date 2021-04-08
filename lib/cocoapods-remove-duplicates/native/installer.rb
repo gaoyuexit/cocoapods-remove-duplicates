@@ -20,7 +20,7 @@ module Pod
 
           if File.exist?(path)
             File.delete(path)
-            puts "移除重复库: #{lib_name}\t\t路径: #{path}"
+            Pod::UI.puts "移除重复库: #{lib_name}\t\t路径: #{path}"
           end
 
         else
