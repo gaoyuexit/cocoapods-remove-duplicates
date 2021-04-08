@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['gaoyuexit@163.com']
   spec.description   = %q{remove the duplicate .a, .framework in pod install.}
   spec.summary       = %q{remove the duplicate .a, .framework in pod install.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-remove-duplicates'
+  spec.homepage      = 'https://github.com/gaoyuexit/cocoapods-remove-duplicates'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
