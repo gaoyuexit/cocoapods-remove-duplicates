@@ -1,6 +1,6 @@
 # cocoapods-remove-duplicates
 
-A description of cocoapods-remove-duplicates.
+> 该插件会在**pod install**过程中自动移除掉重复的`.a`, `.framework`库
 
 ## Installation
 
