@@ -6,10 +6,10 @@ require 'cocoapods-remove-duplicates/gem_version.rb'
 Gem::Specification.new do |spec|
   spec.name          = 'cocoapods-remove-duplicates'
   spec.version       = CocoapodsRemoveDuplicates::VERSION
-  spec.authors       = ['Gao Yu']
+  spec.authors       = ['GaoYu']
   spec.email         = ['gaoyuexit@163.com']
-  spec.description   = %q{A short description of cocoapods-remove-duplicates.}
-  spec.summary       = %q{A longer description of cocoapods-remove-duplicates.}
+  spec.description   = %q{remove the duplicate .a, .framework in pod install.}
+  spec.summary       = %q{remove the duplicate .a, .framework in pod install.}
   spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-remove-duplicates'
   spec.license       = 'MIT'
 
